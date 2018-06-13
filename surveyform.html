@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<h1 align="center">SURVEY FORM</h1>
+	<title>survey form</title>
+</head>
+<style type="text/css">
+#title{
+	text-align: center;
+	font-size: 18px;
+
+}
+#foreground{
+ background-color: white;
+ margin: 20px 50px 10px 50px;
+ border-radius: 1.5%;
+}
+#survey-form{
+	text-align: center;
+	margin: 20px 200px 20px 200px;
+
+}
+#name{
+ 	margin: 10px 20px 20px 20px;
+ 	font:sans-serif;
+}
+#email{
+	margin: 10px 40px 20px 20px;
+ 	font:sans-serif;
+}
+#number{
+    margin: 10px 65px 20px 20px;
+ 	font:sans-serif;
+}
+#dropdown{
+	margin: 10px 31% 20px 10px;
+ 	font:sans-serif;
+}
+
+#radio{
+	margin: 5px 10px 5px 20px;
+ 	font:sans-serif;
+}
+#radio1{
+	margin: 5px 10px 5px 73.5%;
+ 	font:sans-serif;
+}
+#radio2{
+	margin: 5px 10px 5px 75.5%;
+ 	font:sans-serif;
+}
+#checkbox{
+	margin: 10px 10px 5px 20px;
+ 	font:sans-serif;
+}
+#checkbox1{
+	margin: 10px 10px 5px 380px;
+ 	font:sans-serif;
+}
+#checkbox2{
+	margin: 10px 10px 5px 323px;
+ 	font:sans-serif;
+}
+#checkbox3{
+	margin: 10px 10px 5px 56%;
+ 	font:sans-serif;
+}
+#checkbox4{
+	margin: 10px 10px 5px 37%;
+ 	font:sans-serif;
+}
+#checkbox5{
+	margin: 10px 10px 5px 43.5%;
+ 	font:sans-serif;
+}
+#checkbox6{
+	margin: 10px 10px 5px 35%;
+ 	font:sans-serif;
+}
+#checkbox7{
+	margin: 10px 10px 5px 37.5%;
+ 	font:sans-serif;
+}
+#checkbox8{
+	margin: 10px 10px 5px 50.5%;
+ 	font:sans-serif;
+}
+#suggeston{
+	margin: 50px 40px 20px 20px;
+ 	font:sans-serif;
+}
+#submit{
+	margin: 25px 150px 5px 37.5%;
+	font:sans-serif;
+
+}
+.button{
+	background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+</style>
+<body bgcolor=" #aed6f1">
+<div id="foreground">
+<form id="survey-form">
+
+	<div id="title">Let us know how we can improve freeCodeCamp</div> 
+	 <label for="Name" id="name-label">* Name:</label>
+	  <input type="text" required name="Name" placeholder="Enter your name" id="name"><br>
+<label for="EmailId" id="email-label">* Email Id:</label>
+ <input type="text" required name="EmailId" placeholder="Enter your emailid" id="email"><br>
+<label for="Age" id="age-label">* Age:</label>
+ <input type="number" required name="Age"
+    placeholder="Age" id="number"><br>
+    <label for="dropdown" >Which option best descibes your current role:</label>
+    <select name="student" id="dropdown">
+    <option value="student">student</option>
+    <option value="Full time job">Full time job</option>
+    <option value="Full time learner">Full time learner</option>
+    <option value="prefer not to say">prefer not to say</option>
+    <option value="other">other</option>
+    	
+    </select><br>
+    <label for="recommend">* How likely is that you would recommend freeCodeCamp to a friend?</label>
+		<label for="Definitely"><input type="radio" name="Definitely" id="radio">Definitely</label><br>
+		<label for="Maybe"><input type="radio" name="Maybe" id="radio1">Maybe</label><br>
+		<label for="Not sure"><input type="radio" name="Not sure" id="radio2">Not sure</label><br>
+   <label for="improvement">Things that should be improved in the future: </label>
+   <label for="front-end"><input type="checkbox" name="front-end" id="checkbox">Front-end Projects</label><br>
+    <label for="back-end"><input type="checkbox" name="front-end" id="checkbox1">Back-end Projects</label><br>
+     <label for="front-end"><input type="checkbox" name="data visualization" id="checkbox1">Data Visualization</label><br>
+      <label for="front-end"><input type="checkbox" name="challenges" id="checkbox2">Challenges</label><br>
+       <label for="front-end"><input type="checkbox" name="open source" id="checkbox3">Open Source Community</label><br>
+        <label for="front-end"><input type="checkbox" name="gitter home rooms" id="checkbox1">Gitter Help Rooms</label><br>
+         <label for="front-end"><input type="checkbox" name="videos" id="checkbox4">Videos</label><br>
+          <label for="front-end"><input type="checkbox" name="City Meetups" id="checkbox5">City Meetups</label><br>
+           <label for="front-end"><input type="checkbox" name="wiki" id="checkbox6">Wiki</label><br>
+            <label for="front-end"><input type="checkbox" name="Forum" id="checkbox7">Forum</label><br>
+             <label for="front-end"><input type="checkbox" name="additional courses" id="checkbox8">Additional Courses</label><br>
+             <label for="suggestion" id="suggestion">Any Comments or Suggestions?</label>
+           
+    <textarea name="input" id="suggestion" cols="45" rows="4" placeholder="Enter your comment here..."></textarea>
+  </label><br>
+  <button type="submit" value="submit" class="button" id="submit" form="survey-form">Submit</button>
+        <br>
+        <br>
+        <br>
+        <br>
+	
+</form>
+</div>
+</body>
+</html>
